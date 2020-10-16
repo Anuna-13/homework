@@ -40,32 +40,31 @@
 	z-index: 999999999;
 	background-color: white;
 }
-/*body {
-	height:2000px;
-}*/
 .nav-ul::after {
 	content:'';
 	clear: both;
 	display: block;
 }
-.img {
+.banner {
 	margin-top: 120px;
 	margin-left: 10px;
-	/*display: inline-block;
-	vertical-align: center;*/
 }
+
 .post {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	color: #FF7A00;
 	font-size: 22px;
 	margin: 84px 1290px 81px 172px;
 	font-family: 'Poppins-Medium';
+	width: 1326px;
+	/*height: 197px;*/
 }
-.post-title:: after{
+/*.post-title:: after{
 	content:'';
 	clear: both;
 	display: block;
-}
+}*/
 .bag {
 	/*float: left;*/
 	width: 636px;
@@ -134,3 +133,7 @@
 	clear: both;
 	display: block;
 }
+/*.box {
+	width: 1324px;
+	height: 673px;
+}*/
